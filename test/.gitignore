@@ -1,0 +1,6 @@
+service.ini
+servicerc
+odoorc
+uwsgi.xml
+ca.crt
+token2

@@ -1,0 +1,14 @@
+{
+    "service": {
+        "dir": "test",
+        "tmpl": "service.jsonnet",
+        "mode": "0644",
+        "role": "demo",
+        "secrets": {
+            "account": "vault:kv/data/demo/account",
+            "password": "file:test/secret.txt",
+            "path": "env:PATH"
+        },
+        "cmd": "/bin/echo refresh"
+    }
+}
