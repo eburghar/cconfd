@@ -19,7 +19,7 @@ main(int argc, char* argv[]) -> int
 
     args::ArgumentParser parser(
       "Generate files with jsonnet and vault secrets using kubernetes "
-      "authentification",
+      "authentication",
       "");
     args::HelpFlag help_(
       parser, "help", "Display this help menu", { 'h', "help" });
